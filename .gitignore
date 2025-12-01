@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Node/Next artifacts
+site/node_modules
+site/.next
+site/out
+site/build
+site/.vercel
+site/*.tsbuildinfo
+
+# Env
+site/.env*
