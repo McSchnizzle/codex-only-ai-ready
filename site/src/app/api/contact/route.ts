@@ -18,7 +18,7 @@ export async function POST(request: Request) {
   const to = process.env.RESEND_TO_EMAIL ?? "pbrown@vital-enterprises.com";
   const from = process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev";
 
-  const subject = `New AI Support PDX inquiry${freeSession ? " (free session)" : ""}`;
+  const subject = `New AI Ready PDX inquiry${freeSession ? " (free session)" : ""}`;
   const text = `
 New inbound request from the website:
 
@@ -35,7 +35,7 @@ ${message}
 
   try {
     await resend.emails.send({
-      from: `AI Support PDX <${from}>`,
+      from: `AI Ready PDX <${from}>`,
       to,
       replyTo: email,
       subject,

@@ -152,7 +152,7 @@ export default function Home() {
         <div className="brand">
           <div className="brand-mark" aria-hidden />
           <div className="brand-text">
-            <div className="brand-name">AI Support PDX</div>
+            <div className="brand-name">AI Ready PDX</div>
             <div className="brand-subline">A Vital Enterprises company</div>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function Home() {
 
         <section id="why-us" className="section">
           <div className="section-header">
-            <div className="tag">Why work with AI Support PDX?</div>
+            <div className="tag">Why work with AI Ready PDX?</div>
             <h2>Plain language, experienced leadership, measurable outcomes.</h2>
             <p className="muted">
               We bring decades of technology and business leadership, with AI implementations already live across
@@ -356,7 +356,7 @@ export default function Home() {
 
         <section id="about" className="section">
           <div className="section-header">
-            <div className="tag">About AI Support PDX</div>
+            <div className="tag">About AI Ready PDX</div>
             <h2>Part of the Vital Enterprises family in the Pacific Northwest.</h2>
             <p className="muted">
               VTM has spent more than 30 years leading global technology consortiums and standards efforts. Novus
@@ -418,7 +418,7 @@ export default function Home() {
         </section>
       </main>
 
-      <div className="footer">AI Support PDX · A Vital Enterprises company · Serving Portland and the Pacific Northwest</div>
+      <div className="footer">AI Ready PDX · A Vital Enterprises company · Serving Portland and the Pacific Northwest</div>
     </div>
   );
 }

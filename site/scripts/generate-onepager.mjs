@@ -16,7 +16,7 @@ const html = `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>AI Support PDX One-Pager</title>
+  <title>AI Ready PDX One-Pager</title>
   <style>
     :root {
       --forest: #0b3d2e;
@@ -91,9 +91,9 @@ const html = `<!doctype html>
   <div class="page">
     <header>
       <div>
-        <div class="tag">AI Support PDX</div>
+        <div class="tag">AI Ready PDX</div>
         <h1>Experienced tech leaders for your AI journey.</h1>
-        <p>AI Support PDX is led by experienced technology and business leaders from the Vital Enterprises family (including VTM and Novus Labs). We’ve spent decades helping companies adopt new technologies, and we’ve been working with AI-enabled products for years. Now we’re helping Portland-area businesses and nonprofits use AI to save time, win more work, and protect customer data — without needing a technical team.</p>
+        <p>AI Ready PDX is led by experienced technology and business leaders from the Vital Enterprises family (including VTM and Novus Labs). We’ve spent decades helping companies adopt new technologies, and we’ve been working with AI-enabled products for years. Now we’re helping Portland-area businesses and nonprofits use AI to save time, win more work, and protect customer data — without needing a technical team.</p>
       </div>
       <div>
         ${heroBase ? `<img class="hero-img" src="${heroBase}" alt="Hero illustration" />` : ""}
@@ -169,9 +169,9 @@ const html = `<!doctype html>
     </div>
 
     <div class="footer">
-      <div><strong>AI Support PDX · A Vital Enterprises company</strong></div>
+      <div><strong>AI Ready PDX · A Vital Enterprises company</strong></div>
       <div>Serving Portland and the Pacific Northwest · pbrown@vital-enterprises.com</div>
-      <div>Web: AISupportPDX.com</div>
+      <div>Web: aireadypdx.com</div>
     </div>
   </div>
 </body>

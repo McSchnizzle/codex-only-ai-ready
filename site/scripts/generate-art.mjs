@@ -25,7 +25,7 @@ const tasks = [
   {
     name: "og",
     prompt:
-      "Design a social/share image for AI Support PDX. Composition: calming Pacific Northwest inspired background with abstract connection lines and room for a wordmark at the left. Style: flat, minimal, professional; colors deep forest green, slate blue, teal, warm neutral. No text baked in. 16:9 aspect ratio suitable for 1200x630 crops.",
+      "Design a social/share image for AI Ready PDX. Composition: calming Pacific Northwest inspired background with abstract connection lines and room for a wordmark at the left. Style: flat, minimal, professional; colors deep forest green, slate blue, teal, warm neutral. No text baked in. 16:9 aspect ratio suitable for 1200x630 crops.",
     aspectRatio: "16:9",
     imageSize: "1K",
   },

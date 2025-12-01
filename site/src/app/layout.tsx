@@ -15,16 +15,16 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "AI Support PDX | Experienced tech leaders for your AI journey",
+  title: "AI Ready PDX | Experienced tech leaders for your AI journey",
   description:
     "Practical AI strategy, private AI options, and automation for Portland-area businesses and nonprofits.",
   metadataBase: new URL("https://codex-only.aireadypdx.com"),
   openGraph: {
-    title: "AI Support PDX | Experienced tech leaders for your AI journey",
+    title: "AI Ready PDX | Experienced tech leaders for your AI journey",
     description:
       "Practical AI strategy, private AI options, and automation for Portland-area businesses and nonprofits.",
     url: "https://codex-only.aireadypdx.com",
-    siteName: "AI Support PDX",
+    siteName: "AI Ready PDX",
     locale: "en_US",
     type: "website",
     images: [
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
         url: "/art/og.png",
         width: 1200,
         height: 630,
-        alt: "AI Support PDX hero artwork",
+        alt: "AI Ready PDX hero artwork",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI Support PDX",
+    title: "AI Ready PDX",
     description:
       "Practical AI strategy, private AI options, and automation for Portland-area businesses and nonprofits.",
     images: ["/art/og.png"],

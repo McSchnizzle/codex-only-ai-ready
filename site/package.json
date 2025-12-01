@@ -8,11 +8,13 @@
     "start": "next start",
     "lint": "eslint",
     "generate:art": "node scripts/generate-art.mjs",
-    "generate:onepager": "node scripts/generate-onepager.mjs"
+    "generate:onepager": "node scripts/generate-onepager.mjs",
+    "generate:superset": "node scripts/generate-superset-onepager.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "next": "16.0.6",
+    "pdfkit": "^0.17.2",
     "playwright": "^1.57.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
