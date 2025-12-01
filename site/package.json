@@ -9,7 +9,8 @@
     "lint": "eslint",
     "generate:art": "node scripts/generate-art.mjs",
     "generate:onepager": "node scripts/generate-onepager.mjs",
-    "generate:superset": "node scripts/generate-superset-onepager.mjs"
+    "generate:superset": "node scripts/generate-superset-onepager.mjs",
+    "generate:offerings": "node scripts/generate-offering-list.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
